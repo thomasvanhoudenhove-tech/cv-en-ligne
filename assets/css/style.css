@@ -12,3 +12,56 @@ body {
   background-color: white;
   padding: 20px;
 }
+/* HEADER turquoise */
+.main-header {
+  background-color: #17abb3;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* PHOTO À GAUCHE */
+.header-left {
+  flex-shrink: 0;
+}
+
+/* PHOTO RONDE + ZOOM */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+/* TEXTE À DROITE */
+.header-right h1,
+.header-right h2 {
+  margin: 0;
+  color: white;
+  text-align: left;
+}
+
+/* CONTACT AVEC ICÔNES */
+.contact-icons p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 20px;
+}
