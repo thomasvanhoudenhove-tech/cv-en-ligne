@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Conteneur centré du CV */
+.cv-wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
