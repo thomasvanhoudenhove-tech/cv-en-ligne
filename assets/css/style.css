@@ -1,13 +1,13 @@
 /* IMPORT FONTS */
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+  src: url("../fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
+  src: url("../fonts/Raleway-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 /* Google Font Lato pour les titres */
@@ -37,6 +37,28 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 0;
+}
+.layout {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+/* Colonne gauche */
+.gauche {
+  width: 30%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Colonne droite*/
+.droite {
+  width: 70%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 /* HEADER turquoise */
 .main-header {
@@ -100,4 +122,18 @@ body {
 
 .icon {
   font-size: 20px;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.social-footer img {
+  width: 40px;
+  margin: 0 10px;
+}
+
+.update-date {
+  font-size: 14px;
+  color: #555;
 }
