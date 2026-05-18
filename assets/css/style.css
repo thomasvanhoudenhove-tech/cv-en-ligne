@@ -149,16 +149,29 @@ body h2:not(.main-header h2) {
   font-size: 20px;
 }
 footer {
-  margin-top: 40px;
+  background-color: #17abb3;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .social-footer img {
   width: 40px;
-  margin: 0 10px;
+  transition: opacity 0.3s ease;
 }
-
+.social-footer img:hover {
+  opacity: 0.7;
+}
 .update-date {
   font-size: 14px;
-  color: #555;
+  color: white;
 }
