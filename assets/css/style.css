@@ -1,8 +1,34 @@
+/* IMPORT FONTS */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway/Raleway-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/* Google Font Lato pour les titres */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+}
+/* Raleway pour le contenu */
+body,
+p,
+li,
+td,
+th {
+  font-family: "Raleway", sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #f3f3f3;
-  font-family: "Roboto", sans-serif;
 }
 
 /* Conteneur centré du CV */
