@@ -44,10 +44,11 @@ body h2:not(.main-header h2) {
 .layout {
   display: flex;
   gap: 40px;
-  background: #e3e3e3;
+  background: #ffffff;
 }
 /* Colonne gauche */
 .gauche {
+  background: #e3e3e3;
   width: 30%;
   padding: 20px;
   box-sizing: border-box;
@@ -55,7 +56,6 @@ body h2:not(.main-header h2) {
 
 /* Colonne droite*/
 .droite {
-  background: white;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -174,4 +174,12 @@ footer {
 .update-date {
   font-size: 14px;
   color: white;
+}
+.underline {
+  width: 100%;
+  height: 3px;
+  background-color: #33333321;
+
+  border-radius: 2px;
+  margin: 5px 0 20px 0;
 }
