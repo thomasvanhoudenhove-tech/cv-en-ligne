@@ -36,15 +36,13 @@ body {
   width: 1160px;
   margin: 0 auto;
   background-color: white;
-  padding: 20px;
+  padding: 0;
 }
 /* HEADER turquoise */
 .main-header {
   background-color: #17abb3;
   color: white;
   padding: 40px;
-  border-radius: 10px;
-
   display: flex;
   align-items: center;
   gap: 40px;
@@ -71,21 +69,31 @@ body {
 }
 
 /* TEXTE À DROITE */
-.header-right h1,
-.header-right h2 {
+.header-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin: 0;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 /* CONTACT AVEC ICÔNES */
+.contact-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
 .contact-icons p {
-  margin: 8px 0;
-  font-size: 16px;
-  color: white;
   display: flex;
   align-items: center;
   gap: 8px;
+  color: white;
+  font-size: 16px;
+  margin: 0;
 }
 
 .icon {
