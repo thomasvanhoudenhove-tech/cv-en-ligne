@@ -201,3 +201,16 @@ footer {
   color: #17abb3;
   width: 120px;
 }
+
+.table-simple {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-simple td {
+  padding: 6px 0;
+}
+
+.table-simple td:last-child {
+  text-align: right;
+}
