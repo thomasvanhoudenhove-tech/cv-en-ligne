@@ -41,14 +41,12 @@ body {
 .layout {
   display: flex;
   gap: 40px;
-  margin-top: 40px;
+  background: #e3e3e3;
 }
 /* Colonne gauche */
 .gauche {
   width: 30%;
-  background: white;
   padding: 20px;
-  border-radius: 10px;
   box-sizing: border-box;
 }
 
@@ -57,7 +55,6 @@ body {
   width: 70%;
   background: white;
   padding: 20px;
-  border-radius: 10px;
   box-sizing: border-box;
 }
 /* HEADER turquoise */
