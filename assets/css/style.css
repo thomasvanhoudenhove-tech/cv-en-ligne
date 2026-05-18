@@ -30,6 +30,9 @@ body {
   padding: 0;
   background-color: #f3f3f3;
 }
+body h2:not(.main-header h2) {
+  color: #17abb3;
+}
 
 /* Conteneur centré du CV */
 .cv-wrapper {
@@ -52,10 +55,35 @@ body {
 
 /* Colonne droite*/
 .droite {
-  width: 70%;
   background: white;
   padding: 20px;
   box-sizing: border-box;
+}
+.droite table tr:hover {
+  background-color: #e3e3e3;
+}
+.droite p {
+  text-align: justify;
+  text-indent: 30px;
+}
+.droite table tr:hover td:first-child {
+  border-left: 4px solid #17abb3;
+  padding-left: 8px;
+}
+/*.droite table td:first-child {
+  text-align: left;
+}*/
+
+.droite table td:last-child {
+  text-align: right;
+  color: #17abb3;
+}
+.droite table {
+  width: 100%;
+}
+
+.droite table td {
+  padding: 6px 0;
 }
 /* HEADER turquoise */
 .main-header {
