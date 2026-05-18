@@ -214,3 +214,20 @@ footer {
 .table-simple td:last-child {
   text-align: right;
 }
+.qualites,
+.interets {
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+  padding: 0;
+}
+.qualites li,
+.interets li {
+  list-style-type: square;
+  padding-left: 5px;
+}
+
+.qualites li::marker,
+.interets li::marker {
+  color: #17abb3;
+}
