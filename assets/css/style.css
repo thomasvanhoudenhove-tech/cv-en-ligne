@@ -45,12 +45,14 @@ body {
   padding: 40px;
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 /* PHOTO À GAUCHE */
 .header-left {
-  flex-shrink: 0;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* PHOTO RONDE + ZOOM */
